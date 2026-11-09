@@ -1,0 +1,9 @@
+{
+  "plugins": [
+    {"id": "minutes", "kind": "skill", "name": "صورت‌جلسهٔ رسمی", "desc": "تبدیل متن یا یادداشت جلسه به صورت‌جلسهٔ رسمی", "file": "skills/minutes.md", "sha256": "34259efd80db9914abe9dad1eb55e3feba80cbeb37f62a4ee585412df5288999"},
+    {"id": "official-letter", "kind": "skill", "name": "نامهٔ اداری", "desc": "نوشتن نامهٔ رسمی فارسی", "file": "skills/official-letter.md", "sha256": "bae6d26a0c46df946fa10ab37fbbc02ffaa81aee4ec1952e1176c2e7973037f1"},
+    {"id": "executive-brief", "kind": "skill", "name": "خلاصهٔ مدیریتی", "desc": "خلاصهٔ کوتاه و تصمیم‌ساز برای مدیر", "file": "skills/executive-brief.md", "sha256": "94db499333f396f1228c80047350aa06f1b2dbc2f66e23170c7745c3de0bc425"},
+    {"id": "github", "kind": "mcp", "name": "GitHub", "desc": "مخزن‌ها، issueها و pull requestها؛ با توکن شخصی", "url": "https://api.githubcopilot.com/mcp/", "needs_token": true},
+    {"id": "context7", "kind": "mcp", "name": "Context7", "desc": "مستندات به‌روز کتابخانه‌های برنامه‌نویسی؛ بدون توکن", "url": "https://mcp.context7.com/mcp", "needs_token": false}
+  ]
+}
